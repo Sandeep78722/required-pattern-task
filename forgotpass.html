@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forgot password</title>
+</head>
+<body>
+    <center><h1 style="color: crimson;">FORGOT PASSWORD</h1></center>
+    <fieldset>
+    <center>
+    <form action="./passrst.html" method="get">
+        <label for="username :">username :</label>
+        <input type="text" id="username" placeholder="enter username" pattern="[A-Za-z]+" required>
+        <br><br>
+        <label for="password"> password:</label>
+        <input type="text" id="number" name="nmbr" placeholder="enter new password" maxlength="16" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\W])(?=.*[0-9]).+" title="password must between 8to16 atleast one or more upper, lower,symbols,letters" required>
+        </center><br>
+        <center>
+       (your OTP is 1234)
+       <label for="OTP">OTP:</label>
+        <input type="number" id="number" name="nmbr" placeholder="enter otp"><br><br>
+        <input type="submit" value="new password">
+       </center>
+       
+
+
+    </form>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>required pattern task</title>
+</head>
+<body>
+    <center><h1 style="color: blue;">LOG IN</h1></center>
+    <fieldset>
+    <center>
+
+    <form action="./login.html" method="get">
+        <label for="username :">username :</label>
+        <input type="text" id="username" placeholder="enter username" pattern="[A-Za-z]+" required>
+        <br><br>
+        <label for="password">password</label>
+        <input type="text" id="number" name="nmbr" placeholder="enter password" maxlength="16" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\W])(?=.*[0-9]).+" required title="password must between 8to16 with one or more lower upper symbols"><br><br>
+        <input type="submit" value="log in"><br><br>
+        <a href="./forgotpass.html" target="_blank">forgot password?</a>&emsp;&emsp;&emsp;<a href="./register.html" target="_blank">register here</a>
+    </form>
+    </center>
+    </fieldset>
+
+</body>
+</html>
