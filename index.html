@@ -10,12 +10,12 @@
     <fieldset>
     <center>
 
-    <form action="./login.html" method="get">
+    <form action="./login.html" method="get" autocomplete=off>
         <label for="username :">username :</label>
         <input type="text" id="username" placeholder="enter username" pattern="[A-Za-z]+" required>
         <br><br>
         <label for="password">password</label>
-        <input type="text" id="number" name="nmbr" placeholder="enter password" maxlength="16" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\W])(?=.*[0-9]).+" required title="password must between 8to16 with one or more lower upper symbols"><br><br>
+        <input type="text" id="number" name="nmbr" placeholder="enter password" maxlength="16" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\W])(?=.*[0-9]).+" required title="password must between 8to16 with atleasr lower,upper,symbols,letters"><br><br>
         <input type="submit" value="log in"><br><br>
         <a href="./forgotpass.html" target="_blank">forgot password?</a>&emsp;&emsp;&emsp;<a href="./register.html" target="_blank">register here</a>
     </form>
